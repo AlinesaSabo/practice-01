@@ -1,0 +1,134 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  font-weight: 400;
+  color: #000000;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  padding-bottom: 430px;
+}
+.section-hero {
+  background-image: url(/img/11.jpg);
+  background-size: cover;
+  height: 713px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.icon-soc-list {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+}
+.header-logo {
+  padding: 20px 12px;
+}
+
+.selector-name {
+  height: 207px;
+  background: #f8f200;
+  padding: 30px 12px;
+  max-width: 100%;
+  width: 100%;
+  clip-path: polygon(8% 0%, 100% 0%, 100% 85%, 92% 100%, 0% 100%, 0% 15%);
+}
+
+.paragraf-selector {
+  width: 295px;
+  height: 62px;
+  font-family: Archangelsk;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30.63px;
+  text-align: center;
+  color: #000000;
+  margin: 0 auto 25px;
+}
+
+.selection-bt {
+  width: 244px;
+  height: 60px;
+  padding: 19px 50px 19px 50px;
+  background: #000000;
+  color: #f8f200;
+  display: block;
+  border: none;
+  margin: 0 auto;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.section-one {
+  margin-top: 50px;
+  padding: 70px 12px;
+}
+.section-one-name {
+  color: #000000;
+  font-family: Archangelsk;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30.63px;
+  text-align: left;
+  width: 296px;
+  height: 62px;
+  top: 833px;
+  left: 12px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.section-one-paragraf span {
+  color: #52bedc;
+  font-weight: 400;
+}
+
+.section-one-paragraf {
+  color: #000000;
+  width: 296px;
+  margin-top: 25px;
+  margin-bottom: 70px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+}
+
+.section-one-img {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 320px;
+}
+
+.section-one-img img {
+  clip-path: polygon(8% 0%, 100% 0%, 100% 85%, 92% 100%, 0% 100%, 0% 15%);
+}
